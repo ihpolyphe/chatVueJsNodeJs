@@ -1,7 +1,7 @@
 exports.mysql_setting = {
-  host: "*",
+  host: "localhost",
   user: "dev",
-  password: "*",
+  password: "Route246",
   database: "chat_app_db",
   timezone: "jst",
 };
