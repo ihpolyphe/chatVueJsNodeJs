@@ -1,13 +1,29 @@
 # chat with Vur.js+Node.js
 
+チャット機能 with Vue.js
+
+参考:[Socket.io, Express.js と Vue.js を利用したチャットアプリの作り方](https://reffect.co.jp/html/socket-io-express-js-vue-js-chat#vuejs)
+
+# 動かし方
+
+```
+node index.js
+```
+
+ブラウザで`localhost:3000`へ接続
+
 # install
 
 サーバ立てる
 
 - npm install express
+
   ページのリロードでソースを更新
+
 - npm install -save-dev nodemon
+
   双方向通信フレームワーク
+
 - npm install socket.io
 
 # ライフサイクルフック
